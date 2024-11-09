@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TicTacToe Android Studio Rasmus.L</string>
+    <string name="title_activity_game">GameActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="title_activity_board_view">BoardView</string>
+    <string name="title_activity_player_info_view">PlayerInfoView</string>
+</resources>

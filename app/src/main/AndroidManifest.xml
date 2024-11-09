@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TicTacToeAndroidStudioRasmusL"
+        >
+        <activity
+            android:name="com.example.ui.PlayerInfoView"
+            android:exported="false"
+            android:label="@string/title_activity_player_info_view"
+            android:theme="@style/Theme.TicTacToeAndroidStudioRasmusL" />
+        <activity
+            android:name="com.example.ui.ui.theme.BoardView"
+            android:exported="false"
+            android:label="@string/title_activity_board_view"
+            android:theme="@style/Theme.TicTacToeAndroidStudioRasmusL" />
+        <activity
+            android:name="com.example.ui.Boardview"
+            android:exported="false" />
+        <activity
+            android:name="com.example.ui.ResultActivity"
+            android:exported="false"
+            android:label="@string/title_activity_result"
+            android:theme="@style/Theme.TicTacToeAndroidStudioRasmusL" />
+        <activity
+            android:name="com.example.ui.GameActivity"
+            android:exported="false"
+            android:label="@string/title_activity_game"
+            android:theme="@style/Theme.TicTacToeAndroidStudioRasmusL" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.TicTacToeAndroidStudioRasmusL">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
